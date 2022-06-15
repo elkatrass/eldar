@@ -1,0 +1,4 @@
+class Home:
+def __new__(cls, *args, **kwargs):
+     print('megic method new was called', cls)
+     return super().__new__(cls)
